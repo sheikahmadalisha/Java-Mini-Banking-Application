@@ -51,7 +51,7 @@ CREATE TABLE accounts (
 
 3. Clone the repository to your local machine:
    ```bash
-   git clone https://github.com/yourusername/Java-Mini-Banking-Application.git
+   git clone https://github.com/sheikahmadalisha/Java-Mini-Banking-Application.git
    ```
 
 
