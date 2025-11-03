@@ -1,0 +1,11 @@
+CREATE DATABASE gkbankdb;
+
+USE gkbankdb;
+
+CREATE TABLE accounts (
+    account_no INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    username VARCHAR(50) UNIQUE NOT NULL,
+    pin VARCHAR(10) NOT NULL,
+    balance DOUBLE DEFAULT 0.0
+) AUTO_INCREMENT = 1001;
