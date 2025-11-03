@@ -22,7 +22,7 @@ public class BankOperations {
 
     // Create new account
     public void createAccount() throws SQLException {
-        sc.nextLine(); // clear buffer
+        sc.nextLine(); 
         System.out.print("Enter your full name: ");
         String name = sc.nextLine();
 
@@ -58,7 +58,7 @@ public class BankOperations {
 
     // Login
     public void login() throws SQLException {
-        sc.nextLine(); // clear buffer
+        sc.nextLine(); 
         System.out.print("Enter username: ");
         String username = sc.nextLine();
 
@@ -249,7 +249,7 @@ public class BankOperations {
 
     // Change PIN
     private void changePin() throws SQLException {
-        sc.nextLine(); // clear buffer
+        sc.nextLine(); 
         System.out.print("Enter current PIN: ");
         String currentPin = sc.nextLine();
 
@@ -293,7 +293,7 @@ public class BankOperations {
 
     // Delete Account
     private void deleteAccount() throws SQLException {
-        sc.nextLine(); // clear buffer
+        sc.nextLine(); 
         System.out.print("⚠️ Are you sure you want to delete your account? (yes/no): ");
         String confirm = sc.nextLine();
 
