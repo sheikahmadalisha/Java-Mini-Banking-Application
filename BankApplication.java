@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class BankApplication {
     public static void main(String[] args) {
         try (Connection conn = DatabaseConnection.getConnection();
-             Scanner sc = new Scanner(System.in)) { // both resources declared here
+             Scanner sc = new Scanner(System.in)) { 
 
             if (conn == null) {
                 System.out.println("❌ Could not connect to database. Exiting...");
